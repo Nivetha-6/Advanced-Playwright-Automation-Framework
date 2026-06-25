@@ -1,0 +1,23 @@
+# Maven
+target/
+
+# Eclipse
+.settings/
+bin/
+
+# Playwright
+playwright-report/
+test-results/
+
+# Reports
+reports/
+screenshots/
+allure-results/
+test-output/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

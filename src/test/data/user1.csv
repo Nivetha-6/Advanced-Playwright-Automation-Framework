@@ -1,0 +1,6 @@
+FirstName,LastName,Password,SearchProduct,City,Address,Zip,Phone
+Test1,User1,123456,book,Chennai,Anna Nagar,600001,9876543210
+Test2,User2,123456,laptop,Bangalore,MG Road,560001,9876543211
+Test3,User3,123456,computer,Hyderabad,Banjara Hills,500001,9876543212
+Test4,User4,123456,camera,Mumbai,Andheri,400001,9876543213
+Test5,User5,123456,sneaker,Delhi,Karol Bagh,110001,9876543214
