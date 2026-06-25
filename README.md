@@ -1,308 +1,277 @@
-# 🚀 Advanced Playwright Automation Framework (AI-Ready Architecture)
+````markdown
+# Advanced Playwright Automation Framework
 
 <p align="center">
 
-![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=openjdk)
-![Playwright](https://img.shields.io/badge/Playwright-Automation-green?style=for-the-badge&logo=playwright)
-![TestNG](https://img.shields.io/badge/TestNG-Framework-red?style=for-the-badge)
-![Cucumber](https://img.shields.io/badge/Cucumber-BDD-brightgreen?style=for-the-badge&logo=cucumber)
-![Maven](https://img.shields.io/badge/Maven-Build-blue?style=for-the-badge&logo=apachemaven)
-![GitHub](https://img.shields.io/badge/GitHub-Version_Control-black?style=for-the-badge&logo=github)
-![Automation](https://img.shields.io/badge/Automation-Testing-success?style=for-the-badge)
+![Java](https://img.shields.io/badge/Java-17-orange?style=flat-square&logo=openjdk)
+![Playwright](https://img.shields.io/badge/Playwright-Java-45ba63?style=flat-square&logo=playwright)
+![TestNG](https://img.shields.io/badge/TestNG-Framework-red?style=flat-square)
+![Cucumber](https://img.shields.io/badge/Cucumber-BDD-23D96C?style=flat-square&logo=cucumber)
+![Maven](https://img.shields.io/badge/Maven-Build-C71A36?style=flat-square&logo=apachemaven)
+![GitHub](https://img.shields.io/badge/Git-Version_Control-black?style=flat-square&logo=github)
 
 </p>
 
----
+A Java-based automation framework built using **Playwright**, **Cucumber BDD**, **TestNG**, and **Maven** for automating end-to-end web application testing.
 
-# 📖 Overview
-
-The **Advanced Playwright Automation Framework (AI-Ready Architecture)** is a scalable, modular, and enterprise-inspired automation framework developed using **Playwright**, **Java**, **Cucumber BDD**, **TestNG**, and **Maven** for automating end-to-end web application testing.
-
-The framework follows industry-standard automation design principles including:
-
-- Page Object Model (POM)
-- Behavior Driven Development (BDD)
-- Data-Driven Testing
-- Modular Framework Architecture
-- Retry & Recovery Mechanisms
-- Screenshot Capture
-- Execution Logging
-- Rich HTML Reporting
-
-The project automates complete e-commerce workflows such as user registration, authentication, product search, wishlist management, shopping cart, comparison, checkout, coupon validation, and logout.
-
-Designed with maintainability, scalability, and reusability in mind, the framework also provides an **AI-ready architecture**, allowing future integration of intelligent automation capabilities such as self-healing locators, AI-assisted failure analysis, and smart test maintenance.
+The framework follows a modular Page Object Model (POM) architecture with reusable components, centralized utilities, reporting, logging, retry support, and data-driven execution. It has also been designed with an extensible **AI-ready architecture** that allows future integration of intelligent locator recovery and failure analysis without requiring major structural changes.
 
 ---
 
-# 🎯 Project Objectives
+## Features
 
-This framework was developed to:
-
-- Build a reusable enterprise-grade automation framework
-- Automate critical end-to-end business workflows
-- Reduce repetitive manual testing effort
-- Improve test maintainability through modular design
-- Enable data-driven execution using CSV datasets
-- Produce comprehensive execution reports
-- Provide intelligent recovery mechanisms during failures
-- Support future AI-powered automation enhancements
-
----
-
-# ✨ Key Features
-
-## Automation Features
-
-- End-to-End E-Commerce Workflow Automation
-- Playwright with Java
-- Cucumber BDD
-- TestNG Integration
-- Page Object Model (POM)
-- Data-Driven Testing using CSV
-- Modular Framework Design
-- Cross-Browser Ready Architecture
-- Configurable Test Execution
+| Category | Description |
+|-----------|-------------|
+| UI Automation | Playwright with Java |
+| Framework | TestNG |
+| BDD | Cucumber |
+| Design Pattern | Page Object Model (POM) |
+| Build Tool | Maven |
+| Data Driven Testing | CSV-based execution |
+| Reporting | Extent Reports |
+| Logging | Log4j2 |
+| Screenshots | Automatic failure screenshots |
+| Retry Support | Retry Analyzer & Retry Listener |
+| Configuration | External configuration management |
+| Recovery | Recovery workflow for execution failures |
+| AI-Ready | Extension points for future AI integration |
 
 ---
 
-## Reporting & Logging
+## Automated Modules
 
-- Extent HTML Reports
-- Log4j2 Logging
-- Automatic Screenshot Capture
-- Step-wise Execution Logs
-- Failure Reporting
-- TestNG Execution Summary
-
----
-
-## Framework Utilities
-
-- Centralized Configuration Management
-- CSV Data Reader
-- Dynamic Test Data Generation
-- Retry Analyzer
-- Retry Listener
-- Intelligent Recovery Workflow
-- Utility Classes
-- Base Test Management
-- Browser Lifecycle Management
+| Module | Description |
+|----------|-------------|
+| Register | User registration workflow |
+| Login | User authentication |
+| Search | Product search |
+| Wishlist | Wishlist operations |
+| Cart | Shopping cart management |
+| Compare | Product comparison |
+| Coupon | Coupon validation |
+| Checkout | Complete checkout workflow |
+| Logout | Session termination |
+| End-to-End | Full user purchase journey |
 
 ---
 
-# 🤖 AI-Ready Framework Design
+## Technology Stack
 
-Unlike traditional automation frameworks, this project has been designed with an extensible architecture that supports future AI integration while remaining fully functional using standard automation technologies.
-
-The framework includes architectural components that enable future intelligent automation capabilities without requiring significant changes to the framework design.
-
-## Current AI-Ready Components
-
-- Self-healing locator extension points
-- Intelligent failure recovery workflow
-- Smart action abstraction layer
-- Retry and recovery mechanisms
-- AI-ready design for locator recovery and failure analysis
-- Extensible utility classes for future AI-assisted automation
-
-These components provide the foundation for integrating future capabilities such as:
-
-- AI-powered locator recovery
-- Intelligent failure analysis
-- Automatic locator generation
-- Smart test maintenance
-- AI-assisted execution optimization
-
-> **Note**
->
-> Real-time AI/LLM integration (such as OpenAI, Gemini, Claude, or similar services) is **not included in the current implementation**.
->
-> The framework has been intentionally architected to support seamless AI integration as a future enhancement while maintaining compatibility with enterprise automation best practices.
-
----
-
-# 🛠 Technology Stack
-
-| Category | Technologies |
-|-----------|--------------|
-| Programming Language | Java |
-| UI Automation | Playwright |
+| Component | Technology |
+|-----------|------------|
+| Language | Java |
+| Automation | Playwright |
 | Test Framework | TestNG |
-| BDD Framework | Cucumber |
+| BDD | Cucumber |
 | Build Tool | Maven |
 | Reporting | Extent Reports |
 | Logging | Log4j2 |
-| Data Source | CSV |
-| IDE | Eclipse IDE |
+| IDE | Eclipse |
 | Version Control | Git & GitHub |
 
 ---
 
-# 🏗 Framework Architecture
+## AI-Ready Design
+
+The framework includes an extensible architecture designed to support future AI integration.
+
+Current implementation provides architectural support for:
+
+- Self-healing locator extension points
+- Intelligent recovery workflow
+- Smart action abstraction
+- Retry orchestration
+- Recovery utilities
+- Failure analysis extension points
+
+The framework currently executes using standard Playwright automation. Real-time AI/LLM integration (such as OpenAI, Gemini, or similar services) is not included in the current implementation and is planned as a future enhancement.
+
+---
+
+## Architecture
 
 ```text
-                        Feature Files
-                              │
-                              ▼
-                        TestNG Runner
-                              │
-                              ▼
-                     Cucumber Step Definitions
-                              │
-                              ▼
-                         Page Object Model
-                              │
-                              ▼
-                           Base Test
-                              │
-        ┌─────────────────────┼──────────────────────┐
-        ▼                     ▼                      ▼
- Browser Manager        Utility Classes        AI Extension Layer
-                        ConfigReader          AIUtil
-                        CSVUtil              RecoveryUtil
-                        ReportUtil           StepExecutor
-                        RetryAnalyzer
-                        RetryListener
-                        FakerUtil
-                              │
-                              ▼
-                     Microsoft Playwright
-                              │
-                              ▼
-                     Browser Automation
-                              │
-                              ▼
-           Extent Reports • Logs • Screenshots
+                   Feature Files
+                         │
+                         ▼
+                    Test Runner
+                   (TestNG Runner)
+                         │
+                         ▼
+                  Step Definitions
+                         │
+                         ▼
+                    Page Objects
+                         │
+                         ▼
+                      Base Test
+                         │
+        ┌────────────────┼────────────────┐
+        ▼                ▼                ▼
+   Browser Layer     Utility Layer    Recovery Layer
+                         │                │
+                         ▼                ▼
+                    Playwright API     AI Extension
+                         │
+                         ▼
+                    Browser Execution
+                         │
+                         ▼
+             Reports • Logs • Screenshots
 ```
 
 ---
 
-# 📌 Design Principles
+## Project Goals
 
-The framework follows industry-standard software engineering practices:
+The framework focuses on:
 
-- Separation of Concerns
-- Single Responsibility Principle
-- Reusable Page Object Model
-- Modular Utility Design
-- Centralized Configuration
-- Independent Test Modules
-- Maintainable Test Scripts
-- Scalable Framework Architecture
-- AI-Ready Extension Design
-
----
-
-# 💡 Why This Framework?
-
-Most automation frameworks focus only on test execution.
-
-This framework goes beyond basic automation by incorporating:
-
-- Structured framework architecture
-- Recovery-oriented execution
-- Modular utilities
-- Scalable project organization
-- Enterprise automation practices
-- AI-ready extension design
-
-making it suitable for future enterprise automation enhancements and intelligent testing workflows.
+- Modular automation design
+- Reusable test components
+- Maintainable code structure
+- Data-driven execution
+- Reliable test execution
+- Comprehensive reporting
+- Extensible architecture for future enhancements
+- AI-ready framework design
 
 ---
+````
+````markdown
+## Project Structure
 
-# 📂 Project Structure
+The project is organized into reusable layers that separate test logic, page objects, utilities, and execution components.
 
 ```text
 Advanced-Playwright-Automation-Framework
 │
 ├── src
-│   │
 │   ├── main
-│   │   │
 │   │   ├── java
-│   │   │   │
-│   │   │   ├── pages
-│   │   │   │     ├── BasePage.java
-│   │   │   │     ├── HomePage.java
-│   │   │   │     ├── RegisterPage.java
-│   │   │   │     ├── LoginPage.java
-│   │   │   │     ├── SearchPage.java
-│   │   │   │     ├── WishlistPage.java
-│   │   │   │     ├── CartPage.java
-│   │   │   │     ├── CheckoutPage.java
-│   │   │   │     ├── CompareProductsPage.java
-│   │   │   │     └── CouponPage.java
-│   │   │   │
-│   │   │   └── utilities
-│   │   │         ├── AIUtil.java
-│   │   │         ├── ConfigReader.java
-│   │   │         ├── CSVUtil.java
-│   │   │         ├── FakerUtil.java
-│   │   │         ├── RecoveryUtil.java
-│   │   │         ├── ReportUtil.java
-│   │   │         ├── RetryAnalyzer.java
-│   │   │         ├── RetryListener.java
-│   │   │         └── StepExecutor.java
-│   │   │
 │   │   └── resources
-│   │         ├── config.properties
-│   │         ├── log4j2.xml
-│   │         ├── extent.properties
-│   │         └── testdata.csv
 │   │
 │   └── test
-│       │
 │       ├── java
-│       │     │
-│       │     ├── base
-│       │     │      └── BaseTest.java
-│       │     │
-│       │     ├── cucumber
-│       │     │      └── runner
-│       │     │             └── TestRunner.java
-│       │     │
-│       │     ├── hooks
-│       │     │      └── Hooks.java
-│       │     │
-│       │     ├── stepdefinitions
-│       │     │      ├── RegisterSteps.java
-│       │     │      ├── LoginSteps.java
-│       │     │      ├── SearchSteps.java
-│       │     │      ├── WishlistSteps.java
-│       │     │      ├── CartSteps.java
-│       │     │      ├── CheckoutSteps.java
-│       │     │      ├── CompareSteps.java
-│       │     │      ├── CouponSteps.java
-│       │     │      └── EndToEndSteps.java
-│       │     │
-│       │     └── tests
-│       │            ├── LoginTest.java
-│       │            ├── CartTest.java
-│       │            ├── CheckoutTest.java
-│       │            └── RegressionSuite.java
+│       │   ├── base
+│       │   ├── cucumber
+│       │   │   └── runner
+│       │   ├── hooks
+│       │   ├── pages
+│       │   ├── stepdefinitions
+│       │   ├── tests
+│       │   └── utils
 │       │
 │       └── resources
-│             └── features
-│                    ├── Register.feature
-│                    ├── Login.feature
-│                    ├── Search.feature
-│                    ├── Wishlist.feature
-│                    ├── Cart.feature
-│                    ├── Checkout.feature
-│                    ├── Compare.feature
-│                    ├── Coupon.feature
-│                    └── EndToEnd.feature
+│           ├── features
+│           ├── log4j2.xml
+│           └── testdata.json
 │
+├── reports
+├── screenshots
 ├── pom.xml
-├── testng.xml
-├── README.md
-└── .gitignore
+└── README.md
 ```
 
 ---
 
-# 🔄 Framework Execution Workflow
+## Package Overview
+
+### base
+
+Contains the framework initialization classes.
+
+The `BaseTest` class is responsible for:
+
+- Browser initialization
+- Playwright setup
+- Browser context management
+- Common setup and teardown methods
+
+---
+
+### pages
+
+Implements the Page Object Model (POM).
+
+Each page class contains:
+
+- Element locators
+- Page actions
+- Validation methods
+- Business operations
+
+Keeping page logic separate from test logic improves readability and maintainability.
+
+---
+
+### stepdefinitions
+
+Maps Gherkin steps from feature files to Java methods.
+
+Responsibilities include:
+
+- Reading feature steps
+- Calling page methods
+- Performing validations
+- Managing workflow execution
+
+---
+
+### hooks
+
+Contains Cucumber lifecycle hooks executed before and after every scenario.
+
+Typical responsibilities include:
+
+- Browser setup
+- Screenshot capture
+- Report updates
+- Cleanup activities
+
+---
+
+### cucumber.runner
+
+Contains the TestNG runner used to execute Cucumber feature files.
+
+The runner configures:
+
+- Feature locations
+- Glue packages
+- Reporting plugins
+- TestNG integration
+
+---
+
+### tests
+
+Contains reusable TestNG test classes used for individual module validation.
+
+These classes support independent execution outside complete end-to-end scenarios.
+
+---
+
+### utils
+
+Utility classes shared across the framework.
+
+Examples include:
+
+| Utility | Purpose |
+|---------|---------|
+| ConfigReader | Reads configuration values |
+| CSVUtil | Handles CSV test data |
+| FakerUtil | Generates dynamic test data |
+| ReportUtil | Creates Extent Reports |
+| RetryAnalyzer | Retries failed tests |
+| RetryListener | Integrates retry with TestNG |
+| RecoveryUtil | Recovery workflow |
+| StepExecutor | Common execution helper |
+| AIUtil | Extension layer for future AI capabilities |
+
+---
+
+## Execution Flow
 
 ```text
 Feature File
@@ -317,403 +286,173 @@ Cucumber Hooks
 BaseTest
       │
       ▼
+Step Definitions
+      │
+      ▼
 Page Objects
       │
       ▼
-Playwright Browser Actions
+Playwright
       │
       ▼
-Retry Analyzer
+Browser
       │
       ▼
-Recovery Mechanism
-      │
-      ▼
-Extent Report
+Reports + Logs + Screenshots
 ```
 
 ---
 
-# 📦 Package Responsibilities
+## Test Workflow
 
-## 📁 Base
+1. Test execution begins from the TestNG runner.
 
-Responsible for browser initialization, browser lifecycle management, Playwright setup, and framework initialization.
+2. Cucumber loads the feature files.
 
-**Key Component**
+3. Hooks initialize the browser and reporting components.
 
-- BaseTest.java
+4. Step definition classes execute the corresponding business actions.
 
----
+5. Page Object classes interact with the application through Playwright.
 
-## 📁 Pages
+6. Assertions validate the expected behaviour.
 
-Implements the **Page Object Model (POM)** by separating page locators and business actions from test logic.
-
-Responsibilities include:
-
-- Element Locators
-- User Actions
-- Navigation
-- Business Methods
+7. Reports, logs, and screenshots are generated automatically.
 
 ---
 
-## 📁 Step Definitions
+## Recovery Workflow
 
-Acts as the bridge between Gherkin feature files and the automation framework.
-
-Responsibilities:
-
-- Maps Cucumber steps
-- Calls Page Object methods
-- Executes business workflows
-- Performs validations
-
----
-
-## 📁 Hooks
-
-Provides setup and teardown operations.
-
-Responsibilities include:
-
-- Browser initialization
-- Browser cleanup
-- Screenshot capture
-- Report initialization
-- Failure handling
-
----
-
-## 📁 Test Runner
-
-Responsible for executing all Cucumber feature files using the TestNG framework.
-
-Responsibilities:
-
-- Feature execution
-- Plugin configuration
-- Report generation
-- Parallel execution support
-
----
-
-## 📁 Utilities
-
-The utility layer centralizes reusable framework functionality.
-
-Includes:
-
-### ConfigReader
-
-- Reads application configuration
-- Browser selection
-- Environment settings
-
----
-
-### CSVUtil
-
-- Reads CSV test data
-- Supports Data Driven Testing
-- Dynamic input management
-
----
-
-### FakerUtil
-
-Generates random test data including:
-
-- User names
-- Email IDs
-- Phone Numbers
-
----
-
-### ReportUtil
-
-Responsible for:
-
-- Extent Report creation
-- Logging execution steps
-- Capturing test results
-
----
-
-### RetryAnalyzer
-
-Automatically retries failed tests based on configurable retry limits.
-
-Benefits:
-
-- Reduces flaky failures
-- Improves execution stability
-
----
-
-### RetryListener
-
-Works together with RetryAnalyzer to monitor retries and update reports.
-
----
-
-### RecoveryUtil
-
-Provides recovery mechanisms during execution failures.
-
-Examples:
-
-- Safe retries
-- Navigation recovery
-- Framework stability improvements
-
----
-
-### StepExecutor
-
-Acts as a centralized execution layer that standardizes common framework operations.
-
-Benefits:
-
-- Cleaner Step Definitions
-- Better maintainability
-- Reduced duplicate code
-
----
-
-### AIUtil
-
-AIUtil serves as the framework's **AI extension layer**.
-
-Current responsibilities:
-
-- Defines extension points for intelligent automation
-- Supports future self-healing locator integration
-- Provides architecture for AI-assisted recovery
-- Enables future AI-powered failure analysis
-
-The current implementation focuses on providing an extensible foundation while maintaining compatibility with standard Playwright automation.
-
----
-
-# 🧪 Automated Modules
-
-The framework automates complete e-commerce workflows through independent reusable modules.
-
-### ✔ User Registration
-
-- New user registration
-- Validation
-- Success confirmation
-
----
-
-### ✔ Login
-
-- Valid login
-- Invalid login
-- Authentication validation
-
----
-
-### ✔ Product Search
-
-- Search products
-- Validate search results
-
----
-
-### ✔ Wishlist
-
-- Add products
-- Remove products
-- Wishlist validation
-
----
-
-### ✔ Shopping Cart
-
-- Add to cart
-- Remove from cart
-- Quantity updates
-
----
-
-### ✔ Product Comparison
-
-- Compare multiple products
-- Validate comparison details
-
----
-
-### ✔ Coupon Validation
-
-- Apply coupon
-- Verify discount
-- Error message validation
-
----
-
-### ✔ Checkout
-
-- Billing Information
-- Shipping Details
-- Payment Flow
-- Order Confirmation
-
----
-
-### ✔ Logout
-
-- Secure session termination
-- User logout validation
-
----
-
-# 🔐 Intelligent Recovery Workflow
-
-The framework improves execution reliability using multiple recovery mechanisms.
+The framework includes a recovery layer that improves execution stability.
 
 Current capabilities include:
 
-- Retry failed actions
-- Screenshot capture on failure
-- Exception logging
-- Recovery utilities
-- Framework stability improvements
-- Modular recovery architecture
+- Retry support for transient failures
+- Screenshot capture during failures
+- Centralized exception handling
+- Recovery utility methods
+- Consistent execution flow
 
-These components reduce test interruptions and improve execution consistency across repeated test runs.
-
----
-
-# 📊 Reporting
-
-The framework provides comprehensive reporting to simplify execution analysis and debugging.
-
-## Extent Reports
-
-The framework automatically generates rich HTML reports containing:
-
-- Test Execution Summary
-- Pass/Fail Statistics
-- Execution Time
-- Step-wise Logs
-- Failure Details
-- Screenshots
-- Test Categories
-- Environment Information
-
-### Report Features
-
-- Interactive Dashboard
-- Test Timeline
-- Execution Statistics
-- Failure Stack Trace
-- Embedded Screenshots
-- Execution Logs
+These components reduce flaky failures and simplify debugging.
 
 ---
 
-# 📸 Screenshot Capture
+## AI-Ready Architecture
 
-Automatic screenshots are captured during execution to simplify debugging.
+The framework has been designed to support future AI integration without affecting the existing automation flow.
 
-Screenshots are captured for:
+Current extension points include:
 
-- Failed Test Steps
-- Unexpected Exceptions
-- Recovery Attempts
-- Critical Execution Failures
-
-This improves failure analysis and reduces debugging effort.
-
----
-
-# 📝 Logging
-
-The framework uses **Log4j2** for detailed execution logging.
-
-### Logging includes
-
-- Framework Initialization
-- Browser Launch
-- Page Navigation
-- User Actions
-- Validation Results
-- Exception Details
-- Retry Attempts
-- Recovery Operations
-
-The logs provide complete execution traceability for troubleshooting and maintenance.
-
----
-
-# 🔄 Retry & Recovery Mechanism
-
-To improve execution stability, the framework incorporates intelligent retry and recovery strategies.
-
-### Retry Mechanism
-
-The Retry Analyzer automatically retries failed test cases caused by temporary issues such as:
-
-- Timing delays
-- Page loading latency
-- Network fluctuations
-- Element synchronization
-
-### Recovery Mechanism
-
-Recovery utilities help the framework continue execution whenever possible by:
-
-- Re-establishing browser state
-- Recovering failed navigation
-- Restarting interrupted actions
-- Maintaining execution flow
-
-This design minimizes flaky failures and enhances overall framework reliability.
-
----
-
-# 🤖 AI Extension Layer
-
-Although the framework does not currently integrate external AI services, it has been intentionally designed with an extensible architecture that supports future intelligent automation capabilities.
-
-Current AI-ready components include:
-
-- AIUtil abstraction layer
-- Self-healing extension points
-- Intelligent recovery workflow
+- Locator recovery interfaces
 - Smart action abstraction
-- Modular recovery architecture
-- Failure analysis extension support
+- Recovery orchestration
+- Failure analysis workflow
+- Utility layer prepared for AI integration
 
-These components allow future integration with AI/LLM services for:
+Future enhancements may include:
 
-- AI-powered self-healing locators
-- Intelligent locator generation
-- Automated failure analysis
-- Smart execution optimization
-- Adaptive test maintenance
+- AI-assisted locator recovery
+- Intelligent failure analysis
+- Automatic locator suggestions
+- Adaptive execution strategies
 
-This approach enables the framework to evolve without major architectural changes.
+The current implementation does **not** invoke any external AI or LLM services during test execution.
+
+---
+````
+````markdown
+## Reporting
+
+The framework generates execution reports automatically after each test run.
+
+### Extent Reports
+
+Extent Reports provide:
+
+- Execution summary
+- Pass/Fail statistics
+- Step execution details
+- Failure information
+- Execution duration
+- Screenshot attachments
+
+Example:
+
+```
+reports/
+└── ExtentReport.html
+```
 
 ---
 
-# 🚀 Getting Started
+## Logging
 
-## Prerequisites
+Log4j2 is used to capture execution logs throughout the framework.
 
-- Java JDK 17 (or compatible version)
+The logs include:
+
+- Browser initialization
+- Navigation events
+- User actions
+- Assertions
+- Retry attempts
+- Exception details
+
+Example:
+
+```
+logs/
+└── automation.log
+```
+
+---
+
+## Screenshot Capture
+
+Screenshots are captured automatically whenever a test fails.
+
+This helps simplify debugging by preserving the browser state at the point of failure.
+
+Example:
+
+```
+screenshots/
+├── LoginFailure.png
+├── CheckoutFailure.png
+└── SearchFailure.png
+```
+
+---
+
+## Data-Driven Testing
+
+The framework supports external test data using CSV files.
+
+Typical use cases include:
+
+| Scenario | Data Source |
+|----------|-------------|
+| Registration | CSV |
+| Login | CSV |
+| Search | CSV |
+| Checkout | CSV |
+
+The CSV utility reads the data and supplies it to the corresponding test scenarios during execution.
+
+---
+
+## Running the Project
+
+### Prerequisites
+
+- Java 17 or later
 - Maven
-- Eclipse IDE / IntelliJ IDEA
-- Git
-- Playwright Java
+- Playwright
+- Eclipse IDE (or IntelliJ IDEA)
 
 ---
 
-## Clone Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/Nivetha-6/Advanced-Playwright-Automation-Framework.git
@@ -721,22 +460,19 @@ git clone https://github.com/Nivetha-6/Advanced-Playwright-Automation-Framework.
 
 ---
 
-## Import Project
-
-Import the project as an **Existing Maven Project**.
-
-### Eclipse
+### Import into Eclipse
 
 ```
 File
 → Import
-→ Maven
-→ Existing Maven Projects
+→ Existing Maven Project
 ```
+
+Select the project folder and complete the import.
 
 ---
 
-## Install Dependencies
+### Install Dependencies
 
 ```bash
 mvn clean install
@@ -744,7 +480,7 @@ mvn clean install
 
 ---
 
-## Install Playwright Browsers
+### Install Playwright Browsers
 
 ```bash
 playwright install
@@ -758,131 +494,76 @@ mvn exec:java -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="install
 
 ---
 
-## Execute Tests
+### Execute Tests
 
-Run using:
-
-### TestNG
-
-```
-Run As
-→ TestNG Test
-```
-
-or
+Run the framework using either:
 
 ```bash
 mvn test
 ```
 
----
-
-# 📈 Framework Benefits
-
-- Modular Architecture
-- High Reusability
-- Easy Maintenance
-- Data-Driven Execution
-- Comprehensive Reporting
-- Retry & Recovery Support
-- Enterprise Automation Practices
-- AI-Ready Design
-- Scalable Framework Structure
+or execute the TestNG runner directly from Eclipse.
 
 ---
 
-# 🔮 Future Enhancements
+## Future Roadmap
 
-The framework architecture supports future enhancements including:
+The current framework provides a modular foundation for future enhancements.
 
-- AI-powered Self-Healing Locators
-- LLM-based Failure Analysis
-- Automatic Locator Recommendation
-- Intelligent Test Case Generation
-- Visual Regression Testing
-- Parallel Cross-Browser Execution
-- Docker Support
-- Jenkins Integration
-- GitHub Actions CI/CD Pipeline
-- Cloud Execution
-- AI-assisted Test Maintenance
+Potential improvements include:
+
+| Area | Planned Enhancement |
+|------|---------------------|
+| AI Integration | AI-assisted locator recovery |
+| Failure Analysis | LLM-assisted debugging support |
+| Execution | Parallel cross-browser execution |
+| CI/CD | GitHub Actions |
+| CI/CD | Jenkins Pipeline |
+| Containers | Docker support |
+| Cloud | BrowserStack / LambdaTest execution |
+| Testing | Visual regression testing |
 
 ---
 
-# 📷 Sample Execution
-
-## Extent Report
-
-> *(Add screenshot here)*
+## Repository Structure
 
 ```
-images/ExtentReport.png
+src/
+pom.xml
+testng.xml
+README.md
+.gitignore
 ```
 
 ---
 
-## Console Execution
+## Contributing
 
-> *(Add screenshot here)*
+Contributions are welcome.
 
-```
-images/ConsoleExecution.png
-```
+If you would like to improve the framework, feel free to fork the repository and submit a pull request.
 
 ---
 
-## Project Structure
+## Author
 
-> *(Add screenshot here)*
+**Nivethasree S**
 
-```
-images/ProjectStructure.png
-```
+Automation Engineer | Playwright | Java | TestNG | Cucumber
 
----
-
-## Test Execution
-
-> *(Add screenshot here)*
-
-```
-images/TestExecution.png
-```
-
----
-
-# 👩‍💻 Author
-
-## Nivethasree S
-
-**Automation Testing | Playwright | Java | TestNG | Cucumber | Maven**
-
-🔗 **GitHub**
-
+GitHub:
 https://github.com/Nivetha-6
 
-🔗 **LinkedIn**
-
+LinkedIn:
 https://www.linkedin.com/in/nivethasree54
 
 ---
 
-# ⭐ Support
+## License
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+This project is provided for educational and demonstration purposes.
 
----
-
-# 📄 License
-
-This project is intended for educational, learning, and demonstration purposes.
-
----
-
-<p align="center">
-
-### Thank you for visiting this repository!
-
-**Happy Testing 🚀**
-
-</p>
+```
+Copyright (c) 2026 Nivethasree S
+```
+````
