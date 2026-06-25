@@ -1,4 +1,4 @@
-````markdown
+
 # Advanced Playwright Automation Framework
 
 <p align="center">
